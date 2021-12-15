@@ -133,7 +133,11 @@ body{
 #Prizes {
   display: flex;
   justify-content: center;
+  color: #1a2126;
+}
 
+#Prizes a:visited {
+  color: #1a2126;
 }
 
 #Prizes svg{
@@ -156,22 +160,22 @@ body{
 
 #Prizes .content .description{
   position: absolute;
-  top: 20%;
-  width: 300px;
+  top: 14%;
+  width: 340px;
   text-align: center;
   z-index: 1;
 }
 
 #Prizes #SummerSchool .description{
-  left: 22%;
+  left: 20%;
 }
 
 #Prizes #Childvison .description{
-  left: 25%;
+  left: 22%;
 }
 
 #Prizes #UrbanRadar .description{
-  left: 23%;
+  left: 20%;
 }
 
 .description p {
