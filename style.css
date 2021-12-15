@@ -80,7 +80,7 @@ body{
 
 .AboutMe > .left > #name{
   font-size: 72px;
-  margin-bottom: 50px;
+  margin-bottom: 35px;
 }
 
 .AboutMe > .left > #description{
@@ -103,6 +103,18 @@ body{
   color: #dc3d4b;
   font-weight: bold;
 
+}
+
+#description p{
+  line-height: 30px;
+}
+
+#description p a {
+  color: white;
+}
+
+#description p a:visited{
+  color: white;
 }
 
 .AboutMe > .left button:hover{
@@ -284,4 +296,15 @@ body{
 	top: 0;
 	margin-top: -10px;
 	transform: translate(-50%, -100%);
+}
+
+.CV{
+  height: calc(100vh - 70px);
+  width: 100vw;
+  margin-top: 70px;
+}
+
+.CV iframe{
+  height: 100%;
+  width: 100%;
 }
